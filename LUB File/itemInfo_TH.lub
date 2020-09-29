@@ -1,0 +1,33 @@
+	[30000] = {
+		unidentifiedDisplayName = "Zeny",
+		unidentifiedResourceName = "ภบศญ",
+		unidentifiedDescriptionName = {
+			"^0000CCประเภท:^000000 ของอื่น ๆ",
+			"^0000CCน้ำหนัก:^000000 0"
+},
+		identifiedDisplayName = "Zeny",
+		identifiedResourceName = "ภบศญ",
+		identifiedDescriptionName = {
+			"^0000CCประเภท:^000000 ของอื่น ๆ",
+			"^0000CCน้ำหนัก:^000000 0"
+},
+slotCount = 0,
+ClassNum = 0
+},
+
+	[30001] = {
+		unidentifiedDisplayName = "Cash Point",
+		unidentifiedResourceName = "ภฯภฯฤฺภฮ",
+		unidentifiedDescriptionName = {
+			"^0000CCประเภท:^000000 ของอื่น ๆ",
+			"^0000CCน้ำหนัก:^000000 0"
+},
+		identifiedDisplayName = "Cash Point",
+		identifiedResourceName = "ภฯภฯฤฺภฮ",
+		identifiedDescriptionName = {
+			"^0000CCประเภท:^000000 ของอื่น ๆ",
+			"^0000CCน้ำหนัก:^000000 0"
+},
+slotCount = 0,
+ClassNum = 0
+},
