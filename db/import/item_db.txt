@@ -66,3 +66,10 @@
 // Non-kRO Eden Group Mark effect
 //=============================================================
 //22508,Para_Team_Mark_,Eden Group Mark,11,0,,0,,,,0,0xFFFFFFFF,63,2,,,,,,{ unitskilluseid getcharid(3),"AL_TELEPORT",3; },{},{}
+
+
+//===================================================================
+// Vending system
+//===================================================================
+30000,Zeny,Zeny,3,,10,10,,,,,,,,,,,,,{},{},{}
+30001,Cash,Cash,0,0,,0,,,,,0xFFFFFFFF,63,2,,,,,,{.@i = 30001; dispbottom "[System] : You got "+ callfunc("F_InsertComma",(countitem(.@i)+1)) +" Cash Points"; #CASHPOINTS += (countitem(.@i) + 1); delitem .@i,countitem(.@i); dispbottom  "[System] : You have "+ callfunc("F_InsertComma",#CASHPOINTS) +" Cash Points"; },{},{}

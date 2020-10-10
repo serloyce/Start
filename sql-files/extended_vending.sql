@@ -1,0 +1,1 @@
+ALTER TABLE `vendings` ADD COLUMN `extended_vending_item` int(11) unsigned NOT NULL DEFAULT '0' AFTER `sit`;

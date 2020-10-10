@@ -647,7 +647,7 @@ struct Battle_Config
 	int guild_alliance_onlygm;
 	int feature_achievement;
 	int allow_bound_sell;
-	int event_refine_chance;
+	int feature_refineui;
 	int autoloot_adjust;
 	int feature_petevolution;
 	int feature_pet_autofeed;
@@ -689,6 +689,17 @@ struct Battle_Config
 	int homunculus_starving_rate;
 	int homunculus_starving_delay;
 	int drop_connection_on_quit;
+
+	/**
+	* Extended Vending system [Lilith]
+	**/
+	int extended_vending;
+	int show_broadcas_info;
+	int show_item_vending;
+	int ex_vending_info;
+	int ex_vending_report;
+	int item_zeny;
+	int item_cash;
 
 #include "../custom/battle_config_struct.inc"
 };

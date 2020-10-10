@@ -1535,7 +1535,6 @@ CREATE TABLE `vending_items` (
 -- ----------------------------
 -- Records of vending_items
 -- ----------------------------
-
 -- ----------------------------
 -- Table structure for zenylog
 -- ----------------------------
@@ -1555,3 +1554,8 @@ CREATE TABLE `zenylog` (
 -- ----------------------------
 -- Records of zenylog
 -- ----------------------------
+
+-- ----------------------------
+-- Records of extended_vending_item
+-- ----------------------------
+ALTER TABLE `vendings` ADD COLUMN `extended_vending_item` int(11) unsigned NOT NULL DEFAULT '0' AFTER `sit`;
